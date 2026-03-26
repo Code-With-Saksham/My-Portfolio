@@ -4,9 +4,7 @@ import {
   Github, 
   Linkedin, 
   Mail, 
-  MessageSquare, 
-  Send, 
-  Twitter 
+  Send 
 } from 'lucide-react'
 
 const Contact = () => {
