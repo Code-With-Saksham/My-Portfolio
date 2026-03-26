@@ -120,8 +120,8 @@ const Contact = () => {
              <input type="text" name="name" required placeholder="Your Name" style={inputStyle} />
           </div>
           <div style={{ display: 'grid', gap: '8px' }}>
-             <label style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 600, letterSpacing: '0.1em' }}>TOPIC</label>
-             <input type="text" name="subject" required placeholder="Inquiry Topic / Project Type" style={inputStyle} />
+             <label style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 600, letterSpacing: '0.1em' }}>EMAIL</label>
+             <input type="email" name="email" required placeholder="Your Email" style={inputStyle} />
           </div>
           <div style={{ display: 'grid', gap: '8px' }}>
              <label style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 600, letterSpacing: '0.1em' }}>MESSAGE</label>
